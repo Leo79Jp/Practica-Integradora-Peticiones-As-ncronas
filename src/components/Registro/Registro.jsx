@@ -20,7 +20,7 @@ export default function Registro() {
       },
       ...nuevoComentario,
     ]);
-    console.log({nuevoComentario});
+    console.log(nuevoComentario);
 
     nombreInput.reset();
     emailInput.reset();
